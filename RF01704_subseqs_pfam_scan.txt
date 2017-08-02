@@ -1,0 +1,69 @@
+# pfam_scan.pl,  run at Wed Aug  2 14:59:14 2017
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: /home/wrightp/gifA_gifB_RF01739_RF01704/RF01704_all_translated.fa
+#        searching against: ./Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+NC_005070.1_Synechococcus_sp._WH_8102_complete_genome_5_2                                  7     40      7     53 PF14105.5   DUF4278           Family     1    34    56     26.3   6.7e-06   1 No_clan  
+NC_007516.1_Synechococcus_sp._CC9605_complete_genome_7_3                                  96    126     90    127 PF07864.10  DUF1651           Family    43    73    74     33.2   4.6e-08   1 No_clan  
+NC_005070.1_Synechococcus_sp._WH_8102_complete_genome_8_1                                149    200    148    200 PF07466.10  DUF1517           Family     2    61   288     25.0   8.4e-06   1 No_clan  
+NC_005070.1_Synechococcus_sp._WH_8102_complete_genome_10_1                                 9     64      8     64 PF14105.5   DUF4278           Family     2    56    56     45.3   8.2e-12   1 No_clan  
+NC_007516.1_Synechococcus_sp._CC9605_complete_genome_14_2                                  9     59      8     80 PF14105.5   DUF4278           Family     2    56    56     31.2     2e-07   1 No_clan  
+NC_005070.1_Synechococcus_sp._WH_8102_complete_genome_19_1                                 9     59      8     59 PF14105.5   DUF4278           Family     2    56    56     40.0   3.7e-10   1 No_clan  
+NC_007513.1_Synechococcus_sp._CC9902_complete_genome_21_2                                  6     42      6     51 PF14105.5   DUF4278           Family     1    38    56     25.9   9.3e-06   1 No_clan  
+NC_005070.1_Synechococcus_sp._WH_8102_complete_genome_23_2                                 9     59      8     59 PF14105.5   DUF4278           Family     2    56    56     35.5   9.5e-09   1 No_clan  
+NC_007513.1_Synechococcus_sp._CC9902_complete_genome_26_1                                  9     60      8     60 PF14105.5   DUF4278           Family     2    56    56     38.2   1.3e-09   1 No_clan  
+NC_007513.1_Synechococcus_sp._CC9902_complete_genome_36_2                                  9     60      8     60 PF14105.5   DUF4278           Family     2    56    56     33.9   2.8e-08   1 No_clan  
+NC_007516.1_Synechococcus_sp._CC9605_complete_genome_38_2                                  8     58      7     58 PF14105.5   DUF4278           Family     2    56    56     42.9   4.5e-11   1 No_clan  
+NC_007516.1_Synechococcus_sp._CC9605_complete_genome_38_3                                127    199    127    199 PF07864.10  DUF1651           Family     1    74    74     75.1   3.9e-21   1 No_clan  
+NZ_CP011941.1_Synechococcus_sp._WH_8020_genome_41_2                                        6     39      6     44 PF14105.5   DUF4278           Family     1    33    56     28.0   2.1e-06   1 No_clan  
+NC_005042.1_Prochlorococcus_marinus_subsp._marinus_str._CCMP1375_complete_genome_1_3       6     40      6     47 PF14105.5   DUF4278           Family     1    36    56     33.3   4.6e-08   1 No_clan  
+NC_007516.1_Synechococcus_sp._CC9605_complete_genome_2_3                                   7     44      7     58 PF14105.5   DUF4278           Family     1    38    56     25.3   1.4e-05   1 No_clan  
+NC_009482.1_Synechococcus_sp._RCC307_genomic_DNA_sequence_3_3                              7     39      7     51 PF14105.5   DUF4278           Family     1    34    56     30.2   4.1e-07   1 No_clan  
+NZ_CP006270.1_Synechococcus_sp._KORDI-49_complete_genome_4_3                              10     59      8     59 PF14105.5   DUF4278           Family     3    56    56     33.9   2.9e-08   1 No_clan  
+NC_008819.1_Prochlorococcus_marinus_str._NATL1A_complete_genome_6_2                        7     50      7     56 PF14105.5   DUF4278           Family     1    45    56     38.3   1.3e-09   1 No_clan  
+NC_008816.1_Prochlorococcus_marinus_str._AS9601_complete_genome_11_1                       7     39      7     50 PF14105.5   DUF4278           Family     1    34    56     32.6   7.4e-08   1 No_clan  
+NZ_CP007753.1_Prochlorococcus_sp._MIT_0604_complete_genome_12_2                            7     38      7     50 PF14105.5   DUF4278           Family     1    33    56     32.2   9.8e-08   1 No_clan  
+NZ_CP011941.1_Synechococcus_sp._WH_8020_genome_13_3                                        8     61      7     61 PF14105.5   DUF4278           Family     2    56    56     38.2   1.3e-09   1 No_clan  
+NC_007335.2_Prochlorococcus_marinus_str._NATL2A_complete_genome_15_1                      10     62      9     62 PF14105.5   DUF4278           Family     2    56    56     33.6   3.6e-08   1 No_clan  
+NC_007335.2_Prochlorococcus_marinus_str._NATL2A_complete_genome_16_2                       7     50      7     56 PF14105.5   DUF4278           Family     1    45    56     40.5   2.5e-10   1 No_clan  
+NC_008816.1_Prochlorococcus_marinus_str._AS9601_complete_genome_20_1                     161    199    154    200 PF01135.18  PCMT              Family    71   109   210     27.7   1.9e-06   1 CL0063   
+NC_008816.1_Prochlorococcus_marinus_str._AS9601_complete_genome_20_2                       9     61      8     61 PF14105.5   DUF4278           Family     2    56    56     42.5     6e-11   1 No_clan  
+NZ_CP007753.1_Prochlorococcus_sp._MIT_0604_complete_genome_22_2                            9     61      8     61 PF14105.5   DUF4278           Family     2    56    56     42.5     6e-11   1 No_clan  
+NZ_CP007753.1_Prochlorococcus_sp._MIT_0604_complete_genome_22_3                          160    199    153    200 PF01135.18  PCMT              Family    71   110   210     28.1   1.4e-06   1 CL0063   
+NC_008819.1_Prochlorococcus_marinus_str._NATL1A_complete_genome_24_1                      10     62      9     62 PF14105.5   DUF4278           Family     2    56    56     33.6   3.6e-08   1 No_clan  
+NC_005072.1_Prochlorococcus_marinus_MED4_complete_genome_25_1                              7     49      7     56 PF14105.5   DUF4278           Family     1    44    56     34.8   1.5e-08   1 No_clan  
+NC_005070.1_Synechococcus_sp._WH_8102_complete_genome_27_3                                 6     59      6     59 PF14105.5   DUF4278           Family     1    56    56     40.9   1.9e-10   1 No_clan  
+NZ_CP006270.1_Synechococcus_sp._KORDI-49_complete_genome_28_3                              6     48      6     56 PF14105.5   DUF4278           Family     1    44    56     34.7   1.7e-08   1 No_clan  
+NC_007516.1_Synechococcus_sp._CC9605_complete_genome_30_2                                  9     59      8     59 PF14105.5   DUF4278           Family     2    56    56     34.0   2.7e-08   1 No_clan  
+NC_005072.1_Prochlorococcus_marinus_MED4_complete_genome_31_2                              9     61      8     61 PF14105.5   DUF4278           Family     2    56    56     43.3   3.3e-11   1 No_clan  
+NC_005072.1_Prochlorococcus_marinus_MED4_complete_genome_31_3                            160    199    153    200 PF01135.18  PCMT              Family    71   110   210     28.2   1.4e-06   1 CL0063   
+NC_005042.1_Prochlorococcus_marinus_subsp._marinus_str._CCMP1375_complete_genome_32_2      9     59      8     59 PF14105.5   DUF4278           Family     2    56    56     35.4   9.6e-09   1 No_clan  
+NZ_CP006270.1_Synechococcus_sp._KORDI-49_complete_genome_48_3                             54     89     36    100 PF14105.5   DUF4278           Family     2    37    56     25.7   1.1e-05   1 No_clan  
+NC_007513.1_Synechococcus_sp._CC9902_complete_genome_51_3                                 31     83     29     83 PF14105.5   DUF4278           Family     3    56    56     27.3   3.3e-06   1 No_clan  
+NC_007335.2_Prochlorococcus_marinus_str._NATL2A_complete_genome_55_3                       9     59      7     59 PF14105.5   DUF4278           Family     3    56    56     35.8   7.7e-09   1 No_clan  
+NC_008819.1_Prochlorococcus_marinus_str._NATL1A_complete_genome_56_3                       9     59      7     59 PF14105.5   DUF4278           Family     3    56    56     34.9   1.4e-08   1 No_clan  
+NC_007335.2_Prochlorococcus_marinus_str._NATL2A_complete_genome_65_3                     108    151     91    151 PF11302.7   DUF3104           Family    28    71    71     49.7   2.1e-13   1 CL0010   
+NC_008819.1_Prochlorococcus_marinus_str._NATL1A_complete_genome_66_3                     108    151     91    151 PF11302.7   DUF3104           Family    28    71    71     49.7   2.1e-13   1 CL0010   

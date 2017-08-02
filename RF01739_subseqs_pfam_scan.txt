@@ -1,0 +1,63 @@
+# pfam_scan.pl,  run at Wed Aug  2 14:57:08 2017
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: /home/wrightp/gifA_gifB_RF01739_RF01704/RF01739_all_translated.fa
+#        searching against: ./Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+NC_019689.1_Pleurocapsa_sp._PCC_7327_complete_genome_1_2                                          12     68     12     68 PF14105.5   DUF4278           Family     1    56    56     67.9   7.1e-19   1 No_clan  
+NC_019780.1_Dactylococcopsis_salina_PCC_8305_complete_genome_2_1                                  11     67     11     67 PF14105.5   DUF4278           Family     1    56    56     74.5   6.1e-21   1 No_clan  
+NC_019680.1_Synechococcus_sp._PCC_6312_complete_genome_11_1                                       12     48     12     55 PF14105.5   DUF4278           Family     1    36    56     37.4   2.4e-09   1 No_clan  
+NC_016640.1_Arthrospira_platensis_NIES-39_complete_genome_***_SEQUENCING_IN_PROGRESS_***_12_1     14     70     14     70 PF14105.5   DUF4278           Family     1    56    56     69.9   1.7e-19   1 No_clan  
+NC_019738.1_Microcoleus_sp._PCC_7113_complete_genome_13_1                                         12     68     12     68 PF14105.5   DUF4278           Family     1    56    56     77.6   6.5e-22   1 No_clan  
+NC_007776.1_Synechococcus_sp._JA-2-3B'a(2-13)_complete_genome_16_1                                27     82     27     83 PF14105.5   DUF4278           Family     1    55    56     52.0   6.4e-14   1 No_clan  
+NC_019703.1_Geitlerinema_sp._PCC_7407_complete_genome_22_3                                        13     71     13     71 PF14105.5   DUF4278           Family     1    56    56     70.2   1.3e-19   1 No_clan  
+NC_009925.1_Acaryochloris_marina_MBIC11017_complete_genome_24_1                                   13     69     13     69 PF14105.5   DUF4278           Family     1    56    56     74.1   8.4e-21   1 No_clan  
+NC_019678.1_Rivularia_sp._PCC_7116_complete_genome_27_1                                           14     70     14     70 PF14105.5   DUF4278           Family     1    56    56     65.9   2.9e-18   1 No_clan  
+NC_009925.1_Acaryochloris_marina_MBIC11017_complete_genome_30_3                                   11     66     10     66 PF14105.5   DUF4278           Family     2    56    56     49.6   3.8e-13   1 No_clan  
+NC_023033.1_Thermosynechococcus_sp._NK55_genome_31_3                                              15     69     14     76 PF14105.5   DUF4278           Family     2    56    56     51.5   9.3e-14   1 No_clan  
+NC_019693.1_Oscillatoria_acuminata_PCC_6304_complete_genome_38_1                                 155    194    155    198 PF05598.10  DUF772            Domain     1    40    73     26.0   6.5e-06   1 No_clan  
+NC_019683.1_Leptolyngbya_sp._PCC_7376_complete_genome_39_2                                        13     69     13     69 PF14105.5   DUF4278           Family     1    56    56     57.7   1.1e-15   1 No_clan  
+NC_019683.1_Leptolyngbya_sp._PCC_7376_complete_genome_41_2                                        13     69     13     69 PF14105.5   DUF4278           Family     1    56    56     52.5   4.5e-14   1 No_clan  
+NC_006576.1_Synechococcus_elongatus_PCC_6301_DNA_complete_genome_44_3                             12     54     12    104 PF14105.5   DUF4278           Family     1    42    56     36.0   6.3e-09   1 No_clan  
+NZ_CP006471.1_Synechococcus_sp._UTEX_2973_complete_genome_46_3                                    12     54     12    104 PF14105.5   DUF4278           Family     1    42    56     36.0   6.3e-09   1 No_clan  
+NC_000911.1_Synechocystis_sp._PCC_6803_DNA_complete_genome_5_1                                    12     67     12     68 PF14105.5   DUF4278           Family     1    55    56     64.0   1.1e-17   1 No_clan  
+NZ_CP007542.1_Synechocystis_sp._PCC_6714_complete_genome_6_1                                      12     66     12     68 PF14105.5   DUF4278           Family     1    54    56     63.3   1.9e-17   1 No_clan  
+NC_019779.1_Halothece_sp._PCC_7418_complete_genome_7_1                                            13     69     13     69 PF14105.5   DUF4278           Family     1    56    56     73.3   1.5e-20   1 No_clan  
+NC_019745.1_Gloeocapsa_sp._PCC_7428_complete_genome_9_1                                           17     73     17     73 PF14105.5   DUF4278           Family     1    56    56     64.5   8.4e-18   1 No_clan  
+NC_019695.1_Chroococcidiopsis_thermalis_PCC_7203_complete_genome_10_3                             21     77     21     77 PF14105.5   DUF4278           Family     1    56    56     67.3   1.1e-18   1 No_clan  
+NC_004113.1_Thermosynechococcus_elongatus_BP-1_chromosome_complete_genome_15_1                    16     70     15     70 PF14105.5   DUF4278           Family     2    56    56     55.0   7.3e-15   1 No_clan  
+NC_010546.1_Cyanothece_sp._ATCC_51142_circular_chromosome_complete_sequence_17_2                  14     66     14     66 PF14105.5   DUF4278           Family     1    56    56     52.0   6.7e-14   1 No_clan  
+NC_007775.1_Synechococcus_sp._JA-3-3Ab_complete_genome_19_3                                       32     88     32     88 PF14105.5   DUF4278           Family     1    56    56     57.1   1.7e-15   1 No_clan  
+NC_019703.1_Geitlerinema_sp._PCC_7407_complete_genome_20_1                                        15     71     15     71 PF14105.5   DUF4278           Family     1    56    56     66.2   2.4e-18   1 No_clan  
+NC_019680.1_Synechococcus_sp._PCC_6312_complete_genome_21_1                                       15     70     15     70 PF14105.5   DUF4278           Family     1    56    56     53.0   3.2e-14   1 No_clan  
+NC_004113.1_Thermosynechococcus_elongatus_BP-1_chromosome_complete_genome_23_3                    18     72     17     72 PF14105.5   DUF4278           Family     2    56    56     57.0   1.8e-15   1 No_clan  
+NC_023033.1_Thermosynechococcus_sp._NK55_genome_26_3                                              18     72     17     72 PF14105.5   DUF4278           Family     2    56    56     60.1     2e-16   1 No_clan  
+NC_019693.1_Oscillatoria_acuminata_PCC_6304_complete_genome_29_1                                  14     69     14     69 PF14105.5   DUF4278           Family     1    55    56     69.4   2.3e-19   1 No_clan  
+NC_007776.1_Synechococcus_sp._JA-2-3B'a(2-13)_complete_genome_33_2                                27     83     27     83 PF14105.5   DUF4278           Family     1    56    56     50.7   1.7e-13   1 No_clan  
+NC_011726.1_Cyanothece_sp._PCC_8801_complete_genome_35_2                                         179    199    179    200 PF11210.7   DUF2996           Family     1    21   121     24.7   2.3e-05   1 No_clan  
+NC_019701.1_Pseudanabaena_sp._PCC_7367_complete_genome_37_2                                       31     85     31     86 PF14105.5   DUF4278           Family     1    54    56     55.3   5.9e-15   1 No_clan  
+NC_019693.1_Oscillatoria_acuminata_PCC_6304_complete_genome_43_2                                  14     71     14     71 PF14105.5   DUF4278           Family     1    56    56     65.6   3.7e-18   1 No_clan  
+NC_007604.1_Synechococcus_elongatus_PCC_7942_complete_genome_45_1                                 13     55     13    105 PF14105.5   DUF4278           Family     1    42    56     36.0   6.3e-09   1 No_clan  
+NC_008312.1_Trichodesmium_erythraeum_IMS101_complete_genome_47_2                                  11     67     11     81 PF14105.5   DUF4278           Family     1    56    56     55.3     6e-15   1 No_clan  

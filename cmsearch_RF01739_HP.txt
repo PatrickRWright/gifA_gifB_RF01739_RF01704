@@ -1,0 +1,85 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.2 (July 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute.
+# Freely distributed under a BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         Rfam/RF01739_from_HP.cm
+# target sequence database:              60_cyanos.fasta
+# show alignments in output:             no
+# sequence reporting threshold:          E-value <= 0.0001
+# number of worker threads:              4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       glnA  [CLEN=61]
+Accession:   RF01739
+Hit scores:
+ rank     E-value  score  bias  sequence                                                                                   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  ---------------------------------------------------------------------------------------- ------- -------   --- ----- ----  -----------
+  (1) !   2.1e-12   66.5   0.0  NC_019689.1_Pleurocapsa_sp._PCC_7327_complete_genome                                     2838994 2839059 +  cm    no 0.52  -
+  (2) !   2.5e-12   66.2   0.0  NC_019780.1_Dactylococcopsis_salina_PCC_8305_complete_genome                             1527807 1527875 +  cm    no 0.49  -
+  (3) !   2.9e-12   66.0   0.0  NC_019745.1_Gloeocapsa_sp._PCC_7428_complete_genome                                       677842  677784 -  cm    no 0.47  -
+  (4) !   4.9e-12   65.2   0.0  NC_010546.1_Cyanothece_sp._ATCC_51142_circular_chromosome_complete_sequence              1043231 1043292 +  cm    no 0.50  -
+  (5) !     6e-12   64.9   0.0  NC_000911.1_Synechocystis_sp._PCC_6803_DNA_complete_genome                                458952  458891 -  cm    no 0.44  -
+  (6) !     6e-12   64.9   0.0  NZ_CP007542.1_Synechocystis_sp._PCC_6714_complete_genome                                 2707444 2707383 -  cm    no 0.44  -
+  (7) !   6.9e-12   64.6   0.0  NC_019779.1_Halothece_sp._PCC_7418_complete_genome                                        857448  857381 -  cm    no 0.51  -
+  (8) !   9.3e-12   64.2   0.0  NC_019695.1_Chroococcidiopsis_thermalis_PCC_7203_complete_genome                         3207874 3207932 +  cm    no 0.53  -
+  (9) !   1.1e-11   63.9   0.0  NC_019745.1_Gloeocapsa_sp._PCC_7428_complete_genome                                       480420  480329 -  cm    no 0.41  -
+ (10) !   1.3e-11   63.7   0.0  NC_019695.1_Chroococcidiopsis_thermalis_PCC_7203_complete_genome                         3470857 3470768 -  cm    no 0.48  -
+ (11) !   1.9e-11   63.0   0.0  NC_019680.1_Synechococcus_sp._PCC_6312_complete_genome                                    676126  676186 +  cm    no 0.49  -
+ (12) !   2.1e-11   62.8   0.0  NC_016640.1_Arthrospira_platensis_NIES-39_complete_genome_***_SEQUENCING_IN_PROGRESS_*** 3150236 3150327 +  cm    no 0.52  -
+ (13) !     3e-11   62.3   0.0  NC_019738.1_Microcoleus_sp._PCC_7113_complete_genome                                     5705991 5706069 +  cm    no 0.51  -
+ (14) !   3.3e-11   62.2   0.0  NC_019683.1_Leptolyngbya_sp._PCC_7376_complete_genome                                    3254777 3254702 -  cm    no 0.53  -
+ (15) !   4.4e-11   61.7   0.0  NC_004113.1_Thermosynechococcus_elongatus_BP-1_chromosome_complete_genome                 147826  147714 -  cm    no 0.51  -
+ (16) !   5.7e-11   61.3   0.0  NC_007776.1_Synechococcus_sp._JA-2-3B'a(2-13)_complete_genome                            2902190 2902288 +  cm    no 0.59  -
+ (17) !   5.9e-11   61.2   0.0  NC_010546.1_Cyanothece_sp._ATCC_51142_circular_chromosome_complete_sequence              2707245 2707170 -  cm    no 0.47  -
+ (18) !   8.7e-11   60.6   0.0  NC_019689.1_Pleurocapsa_sp._PCC_7327_complete_genome                                     3842224 3842283 +  cm    no 0.43  -
+ (19) !   9.8e-11   60.4   0.0  NC_007775.1_Synechococcus_sp._JA-3-3Ab_complete_genome                                    931758  931667 -  cm    no 0.60  -
+ (20) !     1e-10   60.3   0.0  NC_019703.1_Geitlerinema_sp._PCC_7407_complete_genome                                    3006242 3006150 -  cm    no 0.57  -
+ (21) !   1.2e-10   60.1   0.0  NC_019680.1_Synechococcus_sp._PCC_6312_complete_genome                                    937679  937623 -  cm    no 0.51  -
+ (22) !   1.3e-10   60.0   0.0  NC_019703.1_Geitlerinema_sp._PCC_7407_complete_genome                                    1460593 1460681 +  cm    no 0.48  -
+ (23) !   1.5e-10   59.8   0.0  NC_004113.1_Thermosynechococcus_elongatus_BP-1_chromosome_complete_genome                1753204 1753120 -  cm    no 0.56  -
+ (24) !   1.8e-10   59.5   0.0  NC_009925.1_Acaryochloris_marina_MBIC11017_complete_genome                               2595141 2595223 +  cm    no 0.48  -
+ (25) !     2e-10   59.3   0.0  NC_019695.1_Chroococcidiopsis_thermalis_PCC_7203_complete_genome                         1039739 1039660 -  cm    no 0.45  -
+ (26) !   3.5e-10   58.4   0.0  NC_023033.1_Thermosynechococcus_sp._NK55_genome                                          1068692 1068609 -  cm    no 0.52  -
+ (27) !   3.9e-10   58.3   0.0  NC_019678.1_Rivularia_sp._PCC_7116_complete_genome                                       8619334 8619423 +  cm    no 0.38  -
+ (28) !   4.4e-10   58.0   0.0  NC_019701.1_Pseudanabaena_sp._PCC_7367_complete_genome                                   3168170 3168266 +  cm    no 0.41  -
+ (29) !   5.3e-10   57.8   0.0  NC_019693.1_Oscillatoria_acuminata_PCC_6304_complete_genome                              3669586 3669490 -  cm    no 0.57  -
+ (30) !   7.3e-10   57.3   0.0  NC_009925.1_Acaryochloris_marina_MBIC11017_complete_genome                               3254265 3254355 +  cm    no 0.47  -
+ (31) !   8.3e-10   57.0   0.0  NC_023033.1_Thermosynechococcus_sp._NK55_genome                                           245885  245997 +  cm    no 0.52  -
+ (32) !     1e-09   56.8   0.0  NC_019778.1_Cyanobacterium_stanieri_PCC_7202_complete_genome                              954710  954650 -  cm    no 0.44  -
+ (33) !   1.1e-09   56.6   0.0  NC_007776.1_Synechococcus_sp._JA-2-3B'a(2-13)_complete_genome                            2191743 2191662 -  cm    no 0.61  -
+ (34) !   1.4e-09   56.2   0.0  NC_019776.1_Cyanobacterium_aponinum_PCC_10605_complete_genome                            2190232 2190293 +  cm    no 0.47  -
+ (35) !   3.5e-09   54.8   0.0  NC_011726.1_Cyanothece_sp._PCC_8801_complete_genome                                      4560495 4560430 -  cm    no 0.55  -
+ (36) !   6.9e-09   53.7   0.0  NC_019680.1_Synechococcus_sp._PCC_6312_complete_genome                                    425797  425662 -  cm    no 0.50  -
+ (37) !     7e-09   53.7   0.0  NC_019701.1_Pseudanabaena_sp._PCC_7367_complete_genome                                   3807522 3807373 -  cm    no 0.46  -
+ (38) !   7.9e-09   53.5   0.0  NC_019693.1_Oscillatoria_acuminata_PCC_6304_complete_genome                              6880076 6880150 +  cm    no 0.51  -
+ (39) !   7.9e-09   53.5   0.0  NC_019683.1_Leptolyngbya_sp._PCC_7376_complete_genome                                    4780757 4780837 +  cm    no 0.44  -
+ (40) !     2e-08   52.0   0.0  NC_010546.1_Cyanothece_sp._ATCC_51142_circular_chromosome_complete_sequence              2393902 2393983 +  cm    no 0.48  -
+ (41) !   2.1e-08   51.9   0.0  NC_019683.1_Leptolyngbya_sp._PCC_7376_complete_genome                                      13605   13682 +  cm    no 0.45  -
+ (42) !   2.3e-08   51.8   0.0  NC_016640.1_Arthrospira_platensis_NIES-39_complete_genome_***_SEQUENCING_IN_PROGRESS_***  994471  994367 -  cm    no 0.51  -
+ (43) !   2.4e-08   51.7   0.0  NC_019693.1_Oscillatoria_acuminata_PCC_6304_complete_genome                              4798734 4798646 -  cm    no 0.57  -
+ (44) !   1.2e-06   45.5   0.0  NC_006576.1_Synechococcus_elongatus_PCC_6301_DNA_complete_genome                         1705656 1705712 +  cm    no 0.54  -
+ (45) !   1.2e-06   45.5   0.0  NC_007604.1_Synechococcus_elongatus_PCC_7942_complete_genome                             2611130 2611074 -  cm    no 0.54  -
+ (46) !   1.2e-06   45.5   0.0  NZ_CP006471.1_Synechococcus_sp._UTEX_2973_complete_genome                                 653104  653160 +  cm    no 0.54  -
+ (47) !   6.2e-06   42.9   0.0  NC_008312.1_Trichodesmium_erythraeum_IMS101_complete_genome                              4678876 4678823 -  cm    no 0.43  -
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (61 consensus positions)
+Target sequences:                                              161  (550846556 residues searched)
+Target sequences re-searched for truncated hits:               161  (269836 residues re-searched)
+Windows   passing  local HMM SSV           filter:          204003  (0.1653); expected (0.15)
+Windows   passing  local HMM Viterbi       filter:           98700  (0.08652); expected (0.15)
+Windows   passing  local HMM Viterbi  bias filter:           95095  (0.08337); expected (0.15)
+Windows   passing  local HMM Forward       filter:            1540  (0.001392); expected (0.0008)
+Windows   passing  local HMM Forward  bias filter:            1443  (0.001305); expected (0.0008)
+Windows   passing glocal HMM Forward       filter:            1165  (0.001106); expected (0.0008)
+Windows   passing glocal HMM Forward  bias filter:            1155  (0.001091); expected (0.0008)
+Envelopes passing glocal HMM envelope defn filter:            1149  (0.0003244); expected (0.0008)
+Envelopes passing  local CM  CYK           filter:             148  (2.054e-05); expected (0.0001)
+Total CM hits reported:                                         47  (6.873e-06); includes 0 truncated hit(s)
+
+# CPU time: 37.41u 0.20s 00:00:37.61 Elapsed: 00:00:09.46
+//
+[ok]
