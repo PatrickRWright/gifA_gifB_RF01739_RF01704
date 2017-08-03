@@ -18,14 +18,15 @@
 scripts/grep_orgs_from_ctab.pl cluster.tab genomelist.txt
 mkdir fasta
 mv *fasta fasta
+# // a zipped copy of the fasta directory is deposited in gifA_gifB_RF01739_RF01704
+#    thus you can alternatively choose to "unzip fasta.zip" 
+
 # make one fasta db
 cat fasta/*fasta > 60_cyanos.fasta
 # remove spaces in header
 sed -i 's/ /_/g' 60_cyanos.fasta
 # remove comma
 sed -i 's/,//g' 60_cyanos.fasta
-
-# // a zipped copy of the fasta directory is deposited in gifA_gifB_RF01739_RF01704
 
 # prepare cm for cmseach
 mkdir Rfam

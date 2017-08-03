@@ -57,7 +57,7 @@ foreach(@split_gifB) {
     # this expression returns the kegg id
     if ($_ =~ m/(\w+):/) {
         # quantify the amount of matches
-        my $match_count = `grep -o "$1" ~/gifA_gifB_RF01739_RF01704/SLL1515_cluster.tab | wc -l`;
+        my $match_count = `grep -o "$1:" ~/gifA_gifB_RF01739_RF01704/SLL1515_cluster.tab | wc -l`;
         chomp $match_count;
         $gifB_hash{$1} = $match_count;
     }
@@ -73,7 +73,7 @@ foreach(@split_gifA) {
     # this expression returns the kegg id
     if ($_ =~ m/(\w+):/) {
         # quantify the amount of matches
-        my $match_count = `grep -o "$1" ~/gifA_gifB_RF01739_RF01704/SSL1911_cluster.tab | wc -l`;
+        my $match_count = `grep -o "$1:" ~/gifA_gifB_RF01739_RF01704/SSL1911_cluster.tab | wc -l`;
         chomp $match_count;
         $gifA_hash{$1} = $match_count;
     }
