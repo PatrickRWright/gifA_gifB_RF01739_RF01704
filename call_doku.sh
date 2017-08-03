@@ -7,7 +7,7 @@
 # for this set of commands it is assumed that there is a directory ~/gifA_gifB_RF01739_RF01704/PfamScan
 
 # get cluster.tab from http://mbgd.genome.ad.jp/ 
-# (params -o1 -HO -S -c60 -p0.5 -V0.6 -C80 -ao0.8 -ai0.95 -ne1 -EVAL=0.001 -SCORE=60 Last update 2016/05/19)
+# (params -o1 -HO -S -c60 -p0.5 -V0.6 -C80 -ao0.8 -ai0.95 -ne1 -EVAL=0.00001 -SCORE=60 Last update 2016/05/19)
 # orgs: in cluster.tab header 
 # // the file is already deposited in gifA_gifB_RF01739_RF01704
 
@@ -25,7 +25,7 @@ sed -i 's/ /_/g' 60_cyanos.fasta
 # remove comma
 sed -i 's/,//g' 60_cyanos.fasta
 
-# // a bzip2 copy of 60_cyanos.fasta is deposited in gifA_gifB_RF01739_RF01704
+# // a zipped copy of the fasta directory is deposited in gifA_gifB_RF01739_RF01704
 
 # prepare cm for cmseach
 mkdir Rfam
