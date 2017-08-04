@@ -99,9 +99,6 @@ while read line ; do ~/gifA_gifB_RF01739_RF01704/scripts/parse_16s_from_gbk.pl $
 # manually remove redundant Microcoleus_sp._PCC_7113_plasmid_pMIC7113.02_complete_sequence._NC_019760
 # this organism seems to have a 16S rRNA encoded on its NC_019760 plasmid
 sed -i '/NC_019760/,+1 d' 16S_sequences.fa
-
-# align 16s with MAFFT v7.310 (2017/Mar/17)
-mafft 16S_sequences.fa > 16S_sequences.aln
-# // copies of 16S_sequences.fa and 16S_sequences.aln are deposited in 16s_retrieval
+# // a copy of 16S_sequences.fa is deposited in 16s_retrieval
 cd ..
 
